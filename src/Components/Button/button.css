@@ -1,0 +1,86 @@
+.re-usable-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  color: var(--contrast-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.re-usable-button > svg {
+  fill: var(--contrast-color);
+}
+
+.primary {
+  background: var(--primary-color);
+}
+.secondary {
+  background: var(--secondary-color);
+}
+.warning {
+  background: var(--warning-color);
+}
+.success {
+  background: var(--sucess-color);
+}
+.info {
+  background: var(--info-color);
+}
+.error {
+  background: var(--error-color);
+}
+.disabled {
+    background: var(--disabled-color);
+}
+
+.primary-icon-btn,
+.secondary-icon-btn,
+.warning-icon-btn,
+.success-icon-btn,
+.info-icon-btn,
+.error-icon-btn {
+  background: none;
+}
+
+.primary-icon-btn > svg {
+  fill: var(--primary-color);
+}
+.secondary-icon-btn > svg {
+  fill: var(--secondary-color);
+}
+.warning-icon-btn > svg {
+  fill: var(--warning-color);
+}
+.success-icon-btn > svg {
+  fill: var(--sucess-color);
+}
+.info-icon-btn > svg {
+  fill: var(--info-color);
+}
+.error-icon-btn > svg {
+  fill: var(--error-color);
+}
+.disabled-icon-btn > svg {
+    fill: var(--disabled-color);
+}
+
+.button-large {
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 500;
+  padding: 7px 15px;
+}
+.button-medium {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+.button-small {
+  padding: 5px 8px;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 500;
+}
+

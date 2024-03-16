@@ -1,68 +1,147 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+  color: var(--primary-text);
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background: var(--body-background);
 }
+
+/* colors */
+:root {
+  --primary-color: #264cc8;
+  --secondary-color: #8a8c92;
+  --info-color: #16b0fe;
+  --sucess-color: #56cb01;
+  --warning-color: #feb500;
+  --error-color: #fe4c50;
+  --primary-text: #666d74;
+  --secondar-text: #79777f;
+  --disabled-color: #E7E7E9;
+  --divider: #e7e7e9;
+  --outline-border: #d1d1d2;
+  --body-background: #f5f4fa;
+  --menu-active: #2b6eda;
+  --contrast-color: #fff;
+}
+
+/* Default Text styling */
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 96px;
+  line-height: 112px;
+  font-weight: 300;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+h2 {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 400;
+}
+h4 {
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 400;
+}
+h5 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+h6 {
+  font-size: 20px;
+  line-height: 32px;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+.subtitle-1 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.subtitle2 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.body-1 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.body-2 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.caption {
+  font-size: 12px;
+  line-height: 19.9px;
+  font-weight: 400;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.overline {
+  font-size: 12px;
+  line-height: 31.9px;
+  font-weight: 400;
+}
+
+
+.input-lable {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+}
+.helper-text {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.input-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.avatar-initials {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.chip {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.tooltip {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 500;
+}
+.alert-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.table-header {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.badge-label {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.toast {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
 }
